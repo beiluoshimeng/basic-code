@@ -83,5 +83,21 @@ public class mystring {
 
     public static void string_append(){
 
+        /*
+         * 循环体内，拼接字符串最好使用 StringBuilder 的 append() 方法，而不是 + 号操作符。
+         * 用 + 号操作符的话，就会产生大量的 StringBuilder 对象，不仅占用了更多的内存空间，
+         * 还会让 Java 虚拟机不同的进行垃圾回收，从而降低了程序的性能
+         *
+         * 其他：concat(); join();
+         * */
+
+        StringBuilder s = new StringBuilder();
+        for (int i = 1; i < 10; i++) {
+            String s1 = "yang";
+            String s2 = "aqi";
+            s.append(s1);
+            s.append(s2);
+        }
+        System.out.println(s);
     }
 }
