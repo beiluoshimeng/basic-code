@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/01Hello_World/01Hello_World.iml" filepath="$PROJECT_DIR$/01Hello_World/01Hello_World.iml" />
       <module fileurl="file://$PROJECT_DIR$/02array_test/02array_test.iml" filepath="$PROJECT_DIR$/02array_test/02array_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/03string/03string.iml" filepath="$PROJECT_DIR$/03string/03string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04class and object/_04class and object.iml" filepath="$PROJECT_DIR$/_04class and object/_04class and object.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-code.iml" filepath="$PROJECT_DIR$/basic-code.iml" />
     </modules>
   </component>
