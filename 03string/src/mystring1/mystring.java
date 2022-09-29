@@ -24,7 +24,8 @@ public class mystring {
     public static void main(String[] args) {
         //string_table();
         //string_equ();
-        string_append();
+        //string_append();
+        string_split();
 
     }
 
@@ -99,5 +100,27 @@ public class mystring {
             s.append(s2);
         }
         System.out.println(s);
+    }
+
+    public static void string_split(){
+
+        /*
+         * split();
+         * 传递 2 个参数，第一个为分隔符，第二个为拆分的字符串个数
+         * */
+
+        String s = "yang,aq,love";
+        if (s.contains(",")) {
+            String [] parts = s.split(",", 2);
+            System.out.println("first part: " + parts[0] +" second part: " + parts[1]);
+        } else {
+            throw new IllegalArgumentException("No ,");
+        }
+        //断言 有四种
+        if (s.contains(",")) {
+            String [] parts = s.split("(?<=,)", 3);
+            System.out.println("first part: " + parts[0] +" second part: " + parts[1]+" third part: " + parts[2]);
+        }
+
     }
 }
