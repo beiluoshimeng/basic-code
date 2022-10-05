@@ -16,6 +16,7 @@ public class myclass {
     public static void main(String[] args) {
         //new关键字：创建对象
         Person person = new Person("yang",23,1);
+        System.out.println(person.name);
 
         int a = 10;     //局部变量：方法内部，必须初始化
 
@@ -36,13 +37,30 @@ public class myclass {
     }
 
     //抽象方法，它总是在抽象类中声明。当一个类继承了抽象类后，就必须重写抽象方法. atstract 关键字
+
+
 }
 
 class Person {
-    private String name;
-    private int age;
-    private int sex;
+    public String name;
+    public int age;
+    public int sex;
 
+    /*构造方法
+   1. 构造方法的名字必须和类名一样；
+   2. 构造方法没有返回类型，包括 void；
+   3. 构造方法不能是抽象的、静态的、最终的、同步的，也就是说，构造方法不能通过 abstract、static、final、synchronized 关键字修饰。
+   解释3：由于构造方法不能被子类继承，所以用 final 和 abstract 修饰没有意义；
+         构造方法用于初始化一个对象，所以用 static 修饰没有意义；
+         多个线程不会同时创建内存地址相同的同一个对象，所以用 synchronized 修饰没有必要。
+
+    默认构造方法（无参构造方法）：
+    1. 如果一个构造方法中没有任何参数，那么它就是一个默认构造方法，也称为无参构造方法。
+    2. 目的主要是为对象的字段提供默认值
+    有参构造方法：
+    1. 有参数的构造方法被称为有参构造方法，参数可以有一个或多个。
+    2. 有参构造方法可以为不同的对象提供不同的值。有参数的构造方法被称为有参构造方法，参数可以有一个或多个。有参构造方法可以为不同的对象提供不同的值。
+    */
     public Person(String name, int age, int sex) {
         this.name = name;
         this.age = age;
