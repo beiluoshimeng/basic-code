@@ -22,7 +22,5 @@ public class my_arraylist {
         myList.aq_yang.add("aq&yang");
         myList.aq_yang.indexOf("love");     //正序查找
         myList.aq_yang.lastIndexOf("love");     //倒叙查找
-
     }
-
 }
