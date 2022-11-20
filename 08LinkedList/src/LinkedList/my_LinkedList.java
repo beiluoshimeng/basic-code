@@ -1,5 +1,6 @@
 package LinkedList;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class my_LinkedList {
@@ -29,6 +30,10 @@ public class my_LinkedList {
         for (String s:aq.my_aq
              ) {
             System.out.println(s);
+        }
+
+        for (Iterator<String> it = aq.my_aq.iterator(); it.hasNext();) {
+            System.out.println(it.next());
         }
 
         /*查相关

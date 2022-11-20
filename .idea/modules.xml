@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/06nested class/06nested class.iml" filepath="$PROJECT_DIR$/06nested class/06nested class.iml" />
       <module fileurl="file://$PROJECT_DIR$/07ArrayList/07ArrayList.iml" filepath="$PROJECT_DIR$/07ArrayList/07ArrayList.iml" />
       <module fileurl="file://$PROJECT_DIR$/08LinkedList/08LinkedList.iml" filepath="$PROJECT_DIR$/08LinkedList/08LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_09HashMap/09HashMap.iml" filepath="$PROJECT_DIR$/_09HashMap/09HashMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-code.iml" filepath="$PROJECT_DIR$/basic-code.iml" />
     </modules>
   </component>
